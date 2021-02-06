@@ -35,5 +35,14 @@
     "parallelshell": "3.0.1",
     "rimraf": "^3.0.2",
     "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "uglify-js": "^3.12.6"
   }
 }
