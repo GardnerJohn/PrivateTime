@@ -1,7 +1,19 @@
-$color-primary: beige;
+$color-primary: rgb(253, 104, 129);
+$color-secondary: rgb(226, 74, 99);
+$color-litepurple: rgb(236, 75, 236);
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-color: $color-primary;
+  background-image: linear-gradient($color-primary, $color-secondary, white); 
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.site-footer {
+  background-image: linear-gradient( $color-secondary, white);
+  padding: 20px 0; 
 }
