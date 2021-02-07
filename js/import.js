@@ -19,24 +19,4 @@ function w3IncludeHTML(cb) {
       return;
     }
   }
-  if (cb) cb();
-  // Nav-link active styling for select pages
-  if (document.querySelector("[data-page='homePage']")) {
-      document.querySelector('#navHome').classList.add('active');
-  }
-  if (document.querySelector("[data-page='menuPage']")) {
-      document.querySelector('#navMenu').classList.add('active');      
-  }
-  if (document.querySelector("[data-page='reservationPage']")) {
-      document.querySelector('#navReservation').classList.add('active');
-  }
-  if (document.querySelector("[data-page='locationPage']")) {
-      document.querySelector('#navLocation').classList.add('active');
-  }
-  if (document.querySelector("[data-page='loginPage']")) {
-      document.querySelector('#navLogin').classList.add('active');
-  }
-  if (document.querySelector("[data-page='aboutUsPage']")) {
-      document.querySelector('#navAboutUs').classList.add('active');
-  }
 }
