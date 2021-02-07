@@ -10,3 +10,7 @@
 .site-footer {
   background-image: linear-gradient(#e24a63, white);
   padding: 20px 0; }
+
+.navbar {
+  background-color: #e24a63;
+}

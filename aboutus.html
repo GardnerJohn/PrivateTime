@@ -1,68 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
   
-  <!-- build:css css/main.css -->
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-  <link rel="stylesheet" href="css/sytles.css" />
-  <!-- endbuild -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-
-  <title>Private Time</title>
-</head>
-<body>
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/sytles.css" />
+    <!-- endbuild -->
   
-  <header class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1 class="title">Private Time</h1>
-            </div>
-        </div> 
-    </div>
-</header>
+    <title>About Us</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div w3-include-html="html/header.html"></div> 
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-4 col-sm-2 offset-1">
-          <h5>Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Sites</a></li>
-            <li><a href="contactus.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-4 text-center">
-          <a role="button" btn btn-link href="tel:1235555555"><i class="fa fa-phone"></i> 123-555-5555</a><br>
-          <a role="button" btn btn-link href="mailto:contact@privatetime.com"><i class="fa fa-envelope-o"></i> contact@privatetime.com</a>
-        </div>
-        <div class="col-6 col-sm-5 text-center">
-          <h5>Social</h5>
-          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-          <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
+    <!-- Nav-bar -->
+    <div w3-include-html="html/nav-bar.html"></div> 
 
-  <script src="js/scripts.js"></script>
+    <!-- Footer -->
+    <div w3-include-html="html/footer.html"></div> 
 
-  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-  <!-- build:js js/main.js -->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <!-- endbuild -->
-</body>
+    <!-- Fill in desired content -->
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
+    
+    <!-- External files and javascript are imported from w3schools. The files were downloaded from 
+    http://www.w3schools.com/lib/w3data.js. -->
+
+    <script src="js/import.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>w3IncludeHTML();</script>
+
+
+  </body>
 </html>
