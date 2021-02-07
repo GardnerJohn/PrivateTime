@@ -1,16 +1,16 @@
 .jumbotron {
   margin: 0;
   padding: .5em;
-  background-image: linear-gradient(#fd6881, #e24a63, white); }
+  background-image: linear-gradient(#aa273d, #e24a63,  white); }
 
 .title {
   font-size: 70px;
   text-align: center; }
 
 .site-footer {
-  background-image: linear-gradient(#e24a63, white);
+  background-image: linear-gradient(#aa273d, white);
   padding: 20px 0; }
 
 .navbar {
-  background-color: #e24a63;
+  background-color: #d87988;
 }
