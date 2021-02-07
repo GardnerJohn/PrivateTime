@@ -19,4 +19,9 @@ function w3IncludeHTML(cb) {
       return;
     }
   }
+  // Login Modal
+  $("#loginButton").click(function () {
+    $("#loginModal").modal("show");
+  });
+
 }
