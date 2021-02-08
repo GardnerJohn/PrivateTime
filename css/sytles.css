@@ -8,5 +8,8 @@
   text-align: center; }
 
 .site-footer {
-  background-image: linear-gradient(#e24a63, white);
+  background-image: linear-gradient(#aa273d, #e24a63, white);
   padding: 20px 0; }
+
+#loginModal .modal-header {
+  background-color: rgba(211, 36, 36, 0.877); }
