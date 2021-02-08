@@ -24,4 +24,12 @@ function w3IncludeHTML(cb) {
     $("#loginModal").modal("show");
   });
 
+  //Change background in input text box
+  $("input").focus(function() {
+    $(this).css({'background-color' : 'lightyellow'});
+  });
+  $("input").blur(function() {
+    $(this).css(({'background-color' : 'white'}));
+  });
+
 }
