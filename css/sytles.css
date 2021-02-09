@@ -14,7 +14,7 @@
 #loginModal .modal-header {
   background-color: rgba(211, 36, 36, 0.877); }
 
-/* Images same size */
+/* Make images same size */
 .carousel-item{
     width: 100%; /*width you want*/
     height: 500px; /*height you want*/
@@ -24,4 +24,19 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.navbar {
+  border: 1px solid black;
+}
+
+.searchBox {
+  font-size: 18pt;
+  width: 16em;
+  height: 1.55em;
+}
+
+.chooseRow {
+  padding: 2em;
+  border: 1px solid black;
 }
