@@ -26,7 +26,13 @@
   object-fit: cover; }
 
 .navbar {
-  border: 1px solid black; }
+  border: 1px solid black;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
 
 .searchBox {
   font-size: 18pt;
@@ -48,6 +54,10 @@ a {
   margin-top: 1em;
   margin-bottom: 1em;
   border: 1px solid black; }
+
+#containerImg {
+  padding: 1em;
+}
 
 /* css for contact form */
 /* from https://bootsnipp.com/snippets/qr1zR */

@@ -32,5 +32,5 @@ function w3IncludeHTML(cb) {
   $("input").blur(function() {
     $(this).css(({'background-color' : 'white'}));
   });
-
+  
 }
