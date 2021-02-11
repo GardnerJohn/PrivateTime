@@ -56,7 +56,13 @@ a {
   border: 1px solid black; }
 
 #containerImg {
-  padding: 1em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#sticky {
+  position: sticky;
+  top: 0;
 }
 
 /* css for contact form */

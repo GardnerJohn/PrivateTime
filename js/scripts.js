@@ -26,11 +26,15 @@ function w3IncludeHTML(cb) {
   });
 
   //Change background in input text box
-  $("input").focus(function() {
+  $('input').focus(function() {
     $(this).css({'background-color' : 'lightyellow'});
   });
-  $("input").blur(function() {
+  $('input').blur(function() {
     $(this).css(({'background-color' : 'white'}));
   });
+  
+  if (document.querySelector("[data-page='home']")) {
+      document.querySelector('#homeNav').classList.add('active');
+  }
   
 }
