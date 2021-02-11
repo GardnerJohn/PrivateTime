@@ -19,6 +19,9 @@ function w3IncludeHTML(cb) {
       return;
     }
   }
+
+  // Sticky-top for import
+  document.querySelector('#homeNav').classList.add('active');
   
   // Login Modal
   $("#loginButton").click(function () {
@@ -32,9 +35,5 @@ function w3IncludeHTML(cb) {
   $('input').blur(function() {
     $(this).css(({'background-color' : 'white'}));
   });
-  
-  if (document.querySelector("[data-page='home']")) {
-      document.querySelector('#homeNav').classList.add('active');
-  }
   
 }
