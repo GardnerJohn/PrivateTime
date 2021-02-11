@@ -29,11 +29,6 @@
   border: 1px solid black;
 }
 
-.sticky-top {
-  position: sticky;
-  top: 0;
-}
-
 .searchBox {
   font-size: 18pt;
   width: 16em;
@@ -58,11 +53,6 @@ a {
 #containerImg {
   padding-top: 2em;
   padding-bottom: 1em;
-}
-
-#sticky {
-  position: sticky;
-  top: 0;
 }
 
 /* css for contact form */
