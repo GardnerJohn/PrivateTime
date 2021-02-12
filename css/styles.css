@@ -2,6 +2,11 @@ body {
   background-color: #f3abb7;
 }
 
+.sign {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 .jumbotron {
   margin: 0;
   padding: 20px;
