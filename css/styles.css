@@ -1,24 +1,10 @@
-body {
-  background-color: #f3abb7;
-}
-
-h1, h2, h3 {
-  font-family: Arial, Helvetica, Arial, sans-serif;
-}
-
-.sign {
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-
 .jumbotron {
   margin: 0;
-  padding: 20px;
-  background-image: linear-gradient(#aa273d, #e24a63, white);
-}
+  padding: 30px;
+  background-image: linear-gradient(#aa273d, #e24a63, white); }
 
 .title {
-  font-size: 50px;
+  font-size: 100px;
   text-align: center; }
 
 .site-footer {
@@ -38,7 +24,10 @@ h1, h2, h3 {
   width: 100%;
   height: 100%;
   object-fit: cover; }
-  
+
+#contCarousel {
+  background-color: #f3abb7; }
+
 .navbar {
   border: 1px solid black; }
 
@@ -63,15 +52,10 @@ a {
   margin-bottom: 1em;
   border: 1px solid black; }
 
-#containerImg {
-  padding-top: 2em;
-  padding-bottom: 1em;
-}
-
 .forFree {
   padding: 4em;
   border: 1px solid black;
-}
+  background-color: #f3abb7; }
 
 /* css for contact form */
 /* from https://bootsnipp.com/snippets/qr1zR */

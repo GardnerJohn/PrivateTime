@@ -60,6 +60,7 @@ border: 1px solid black;
 h3 {
   margin: 1em;
 }
+
 a {
   text-decoration: none; 
   color: black; 
@@ -84,7 +85,7 @@ padding: 4%;
 /* height: em; */
 }
 .col-md-3{
-background: #e24a63;
+background: $color-secondary;
 padding: 4%;
 border-top-left-radius: 0.5rem;
 border-bottom-left-radius: 0.5rem;
